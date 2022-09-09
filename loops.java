@@ -4,10 +4,10 @@ public class loops {
 
 			  public static void main(String[] args) { 
 			  // TODO Auto-generated method stub 
-//			  // for loop  
-//			   		  
-//			  //print 1-6
-//			  
+			  // for loop  
+			   		  
+			  //print 1-6
+			  
 		  for (int i =1;i<6;i++) {
 				  System.out.println(i);
 			 // System.out.println("Anju");
@@ -37,25 +37,26 @@ public class loops {
 			  // break statement with for loop 		   
 		    
 		  for (int i = 0; i<5; i ++) {
-				  if (i == 2){			break;
+				  if (i == 2){		
+					  break;
 			  }
 				  System.out.println(i);
 		  }
 			
-			  for(int i = 0 ; i < 5 ; i++) {  //1 // 2 
-			   System.out.println(i); // 0 ,1 ,2 
+			  for(int i = 0 ; i < 5 ; i++) {   
+			   System.out.println(i);  
 			   if(i == 2) { 
 			    break; 
 			   } 
  }  
 			  // continue  			   
-			  for(int i = 0 ; i < 5 ; i++) { //1 //2 //3 // 4 //5 
+			  for(int i = 0 ; i < 5 ; i++) {  
 			    if(i == 2) { 
 			     continue; 
 			   } 
 			    System.out.println(i); // 0 ,1 ,3 ,4 
 			  }  
-			   
+//			   
 //			   while loop 	   		
 		  
 	   int t7 = 1;
@@ -82,57 +83,57 @@ public class loops {
 						 System.out.println( t10);
 						 t10++;
 					 }
-					 
-					 
-					 for (int i = 0;i<=10;i++) {
-						 System.out.println(i);
-					 }
-					 
-					 for (int i = 10; i>=1; i--) {
-					 System.out.println(i);
-					 }
-					  
-					 
-					 for (int  i = 3; i<=30; i = i+3) {
-						 System.out.println(i);
-					 }
-					  for (int i = 30; i>=1; i=i-3) {
-						  System.out.println(i);
-					  }
-					 
-					 for (int i = 1;i <=10;i ++) {
-						 if(i == 3) {
-							 break;
-						 }
-						 System.out.println(i);
-					 }
-					  for (int i = 0; i <=10; i ++) {
-						  System.out.println(i);
-						  if (i==5) {
-							  break;
-						  }
-						  
-					  }
-					  for (int i = 10; i>=1; i--) {
-						  if(i == 6) {
-							  continue;
-						  }
-						  System.out.println(i);
-					  }
-					  
-					  
-					  int b = 1;
-							  while (b<=10) {
-								  System.out.println(b);
-								  b++;
-							  }
-					  int b1 = 10;
-							  while (b1>=1) {
-								  System.out.println(b1);
-								  b1--;
-							  }
-							  
-				
+//					 
+//					 
+//					 for (int i = 0;i<=10;i++) {
+//						 System.out.println(i);
+//					 }
+//					 
+//					 for (int i = 10; i>=1; i--) {
+//					 System.out.println(i);
+//					 }
+//					  
+//					 
+//					 for (int  i = 3; i<=30; i = i+3) {
+//						 System.out.println(i);
+//					 }
+//					  for (int i = 30; i>=1; i=i-3) {
+//						  System.out.println(i);
+//					  }
+//					 
+//					 for (int i = 1;i <=10;i ++) {
+//						 if(i == 3) {
+//							 break;
+//						 }
+//						 System.out.println(i);
+//					 }
+//					  for (int i = 0; i <=10; i ++) {
+//						  System.out.println(i);
+//						  if (i==5) {
+//							  break;
+//						  }
+//						  
+//					  }
+//					  for (int i = 10; i>=1; i--) {
+//						  if(i == 6) {
+//							  continue;
+//						  }
+//						  System.out.println(i);
+//					  }
+//					  
+//					  
+//					  int b = 1;
+//							  while (b<=10) {
+//								  System.out.println(b);
+//								  b++;
+//							  }
+//					  int b1 = 10;
+//							  while (b1>=1) {
+//								  System.out.println(b1);
+//								  b1--;
+//							  }
+//							  
+//				
 					int b2=2;
 					while(b2<=20) {
 						System.out.println(b2);
@@ -157,11 +158,7 @@ public class loops {
 						System.out.println(b4);
 						b4++;
 					}
-					
-					  
-							  
-		
-							 
+						 
  } }
 
 
