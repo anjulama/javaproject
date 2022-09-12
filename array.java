@@ -139,7 +139,7 @@ public class array {
 		  } 
 		  System.out.println(total/ages2.length); 
 		  
-
+ 
 			 int [] numbers_1 =  {1,2,3,4}; 
 		   	 int sum_1 = 0;
 		   	  
